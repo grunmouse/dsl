@@ -1,0 +1,16 @@
+{
+  "name": "@grunmouse/dsl",
+  "version": "0.1.0",
+  "description": "littlelisp с большим количеством синтаксического сахара",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grunmouse/calculator-language": "link:..\\calculator-language",
+    "@grunmouse/stack": "link:..\\stack",
+    "@grunmouse/typed-system": "link:..\\typed-system"
+  }
+}

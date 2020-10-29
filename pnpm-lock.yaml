@@ -1,0 +1,9 @@
+dependencies:
+  '@grunmouse/calculator-language': 'link:../calculator-language'
+  '@grunmouse/stack': 'link:../stack'
+  '@grunmouse/typed-system': 'link:../typed-system'
+lockfileVersion: 5.1
+specifiers:
+  '@grunmouse/calculator-language': 'link:..\calculator-language'
+  '@grunmouse/stack': 'link:..\stack'
+  '@grunmouse/typed-system': 'link:..\typed-system'
