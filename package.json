@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@grunmouse/calculator-language": "link:..\\calculator-language",
-    "@grunmouse/stack": "link:..\\stack",
-    "@grunmouse/typed-system": "link:..\\typed-system"
+    "@grunmouse/stack": "link:..\\stack"
   }
 }
