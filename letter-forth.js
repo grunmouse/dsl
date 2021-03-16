@@ -2,6 +2,10 @@ const Stack = require('@grunmouse/stack');
 
 const TERMINATOR = Symbol;
 
+
+/**
+ * Объект, представляющий интерпретатор стекового языка, словами которого являются символы входной строки.
+ */
 function Evaluator(lib){
 	
 	for(let key of Object.keys(lib)){
