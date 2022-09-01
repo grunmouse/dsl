@@ -11,7 +11,7 @@ function flatList(item){
 
 function leftList(arr){
 	let name = arr[0];
-	return [name, leftList(arr.slice(0,-1), arr.slice(-1)];
+	return [name, leftList(arr.slice(0,-1)), arr.slice(-1)];
 }
 
 function rightList(arr){
